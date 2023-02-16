@@ -11,6 +11,12 @@ p {
     font-size: small;
     color: rgb(145, 134, 134);
 }
+.hov:hover {
+    transform: scale(110%);
+}
+.hov {
+    height: 140px;
+}
 
 @media screen and (max-width: 768px) {
     .imgdiv {
