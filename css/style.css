@@ -1,0 +1,49 @@
+/* Author:Sonu J */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.smedia img {
+    width: 30px;
+}
+p {
+    font-size: small;
+    color: rgb(145, 134, 134);
+}
+
+@media screen and (max-width: 768px) {
+    .imgdiv {
+        justify-content: left !important;
+    }
+    .categorydiv {
+        justify-content: left !important;
+        padding-right: 0 !important;
+    }
+    .description {
+        width: 100% !important;
+    }
+    .screenshots {
+        padding-bottom: 10px;
+    }
+    .smedia img {
+        width: 10px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .details {
+        padding: 2% !important;
+    }
+    .smedia img {
+        width: 15px;
+    }
+    input {
+        width: 100% !important;
+    }
+    textarea {
+        width: 100% !important;
+    }
+    .imgdiv {
+        justify-content: left !important;
+    }
+}
